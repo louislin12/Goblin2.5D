@@ -37,6 +37,12 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Config|Base")
 	FGameplayTag ItemType;
 
+	//EFFECT
+
+	// Damage of weapon or hp added by consumable
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Config|Effect")
+	int64 EffectValue = 1;
+
 	//INVENTORY
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Config|Inventory")
