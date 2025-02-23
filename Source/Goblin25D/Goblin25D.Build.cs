@@ -9,7 +9,7 @@ public class Goblin25D : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "GameplayTags", "InputCore" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "GameplayTags", "Paper2D", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
