@@ -45,7 +45,7 @@ public:
 
 	virtual FPrimaryAssetId GetPrimaryAssetId() const override
 	{
-		return FPrimaryAssetId(TEXT("Item"), AssetRegistrySearchableTag);
+		return FPrimaryAssetId(TEXT("Currency"), AssetRegistrySearchableTag);
 	}
 	
 };
