@@ -23,6 +23,9 @@ public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, AssetRegistrySearchable, Category = "Config")
 	FName AssetRegistrySearchableTag = "";
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Config")
+	TSoftClassPtr<UObject> ItemClass = nullptr;
+
 	//BASE
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Config|Base")
